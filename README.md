@@ -26,7 +26,7 @@ The text data in the dataset is preprocessed before being used to train the mach
 - Removing punctuation
 
 ## Models
-The models used in this project are Logistic Regression, Bernoulli Naive Bayes and Support Vector Machines (SVM) models trained on a bag-of-words representation of the preprocessed text data. The models are trained on a subset of the dataset and evaluated on a holdout set to measure its accuracy in predicting sentiment.
+The models used in this project are Logistic Regression, Bernoulli Naive Bayes and Support Vector Machines (SVM) models trained on a TF-IDF representation of the preprocessed text data. The models are trained on a subset of the dataset and evaluated on a holdout set to measure its accuracy in predicting sentiment.
 
 ## Data Visualization
 The results of the sentiment analysis are visualized using a word cloud, which displays the most common words in the positive and negative tweets. The word cloud is created using the Python library `wordcloud`. A confusion matrix was also used to visualize the metrics of each model
