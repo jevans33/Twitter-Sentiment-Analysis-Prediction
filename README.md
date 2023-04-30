@@ -14,7 +14,7 @@ The Twitter Sentiment Analysis Project is a project for CAP4770. The goal of thi
 - wordcloud
 
 ## Dataset
-For this project, the dataset to be analyzed is Kaggle’s, “Sentiment140 dataset with 1.6 million tweets”. This dataset, as the name suggests, contains 1.6 million tweets that were extracted using the Twitter API. Each row in the dataset represents a tweet. Each tweet has 6 fields related to it, but for this project the two most important fields are the target field and text field. The target field can have three possible values: 0 if the tweet is negative, 2 if neutral, and 4 if positive. The text field contains the tweet itself. With this information it is possible to analyze the dataset and train a model based on the tweet texts and target score to make a prediction on whether a new tweet is positive, neutral or negative.
+For this project, the dataset to be analyzed is Kaggle’s, “Sentiment140 dataset with 1.6 million tweets”. This dataset, as the name suggests, contains 1.6 million tweets that were extracted using the Twitter API. Each row in the dataset represents a tweet. Each tweet has 6 fields related to it, but for this project the two most important fields are the target field and text field. The target field can have three possible values: 0 if the tweet is negative, and 4 if positive. The text field contains the tweet itself. With this information it is possible to analyze the dataset and train a model based on the tweet texts and target score to make a prediction on whether a new tweet is positive, neutral or negative.
 
 
 ## Data Preprocessing
